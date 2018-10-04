@@ -136,4 +136,4 @@ bot.on("ready", async () =>{
   bot.user.setActivity("YOU!", {type: "WATCHING"});
 });
 
-bot.login(Token.token);
+bot.login(process.env.BOT_TOKEN);
